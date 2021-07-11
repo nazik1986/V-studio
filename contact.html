@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+   
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--==============================header=================================-->
+  <header class="header fon-menu">
+    <div class="container ">
+        <div class="row header-row">
+            
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <nav class="menu-wrap ">
+                    <ul class="menu">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <div class="logo cap-center">
+                            <a href="">
+                                <img src="images/logo.png" alt="logo">
+                            </a>
+                        </div>
+                        <li><a href="portfolio.html">PORTFOLIO</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </nav>
+         </div>
+      </div>
+    </div>
+</header>  
+
+<div class="contact">
+    <div class="container">
+    <div class="pad-1"><img src="images/v-9.jpg"></div>
+            <div class="page6-row1">
+            	<div class="col-14">
+                    <h2 class="h2">Contact info:</h2>
+					<dl>
+                    	<dt class="clr-1"><strong >Paris Clark</strong><br>8901 Marmora Road, Glasgow, D04 89GR</dt>
+                        <dd><span>Telephone:</span>+1 959 603 6035</dd>
+                        <dd><span>Fax:</span>+1 504 889 9898</dd>
+                        <dd class="p3"><span>Email:</span><a href="#" class="link">mail@thomsander.com</a></dd>
+                        <dt class="clr-1">9863 Mill Road, Cambridge, MG09 99HT</dt>
+                        <dd><span>Telephone:</span>+1 959 603 6035</dd>
+                        <dd><span>Fax:</span>+1 504 889 9898</dd>
+                        <dd><span>Email:</span><a href="#" class="link">mail@thomsander.com</a></dd>
+                    </dl> 
+                </div> 
+               
+                <div class="col-16">
+                    <h2 class="h2 p2">Contact form:</h2>
+					<form id="form" method="post" >
+                      <fieldset>
+                        <label><input type="text" value="Full Name" onBlur="if(this.value=='') this.value='Full Name'" onFocus="if(this.value =='Full Name' ) this.value=''"></label>
+                        <label><input type="text" value="Email" onBlur="if(this.value=='') this.value='Email'" onFocus="if(this.value =='Email' ) this.value=''"></label>
+                        <label><textarea onBlur="if(this.value==''){this.value='Message'}" onFocus="if(this.value=='Message'){this.value=''}">Message</textarea></label>
+                        <div class="btns"><a href="#" class="link-1">Clear</a><a href="#" class="link-1" onClick="document.getElementById('form').submit()">Send</a></div>
+                      </fieldset>  
+                    </form> 
+                </div>
+            </div>
+        </div>  
+    </div>         
+</div>
