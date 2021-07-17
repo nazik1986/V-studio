@@ -602,9 +602,21 @@ h3 {
 .list-1 {
   color: #dde1e4;
 }
+.list-1 a {
+  color: hotpink;
+}
+.list-1 a:hover {
+  color: deeppink;
+}
 #tab-1,
 #tab-2,
 #tab-3,
 #tab-4 {
   position: relative;
+}
+.link {
+  color: #bf96c7;
+}
+.clr-1 {
+  color: #bf96c7;
 }
